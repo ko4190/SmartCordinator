@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="DesignSurface">
+    <option name="filePathToZoomLevelMap">
+      <map>
+        <entry key="..\:/Users/beom/AndroidStudioProjects/SmartCoordinator/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.169" />
+        <entry key="..\:/Users/beom/AndroidStudioProjects/SmartCoordinator/app/src/main/res/drawable/cool.xml" value="0.169" />
+        <entry key="..\:/Users/beom/AndroidStudioProjects/SmartCoordinator/app/src/main/res/drawable/dong.xml" value="0.174" />
+        <entry key="..\:/Users/beom/AndroidStudioProjects/SmartCoordinator/app/src/main/res/drawable/ic_baseline_assessment_24.xml" value="0.169" />
+        <entry key="..\:/Users/beom/AndroidStudioProjects/SmartCoordinator/app/src/main/res/drawable/ic_baseline_people_24.xml" value="0.116" />
+        <entry key="..\:/Users/beom/AndroidStudioProjects/SmartCoordinator/app/src/main/res/drawable/ic_launcher_background.xml" value="0.169" />
+        <entry key="..\:/Users/beom/AndroidStudioProjects/SmartCoordinator/app/src/main/res/drawable/midium.xml" value="0.169" />
+        <entry key="..\:/Users/beom/AndroidStudioProjects/SmartCoordinator/app/src/main/res/drawable/sideline.xml" value="0.16666666666666666" />
+        <entry key="..\:/Users/beom/AndroidStudioProjects/SmartCoordinator/app/src/main/res/drawable/sideline_right.xml" value="0.1259259259259259" />
+        <entry key="..\:/Users/beom/AndroidStudioProjects/SmartCoordinator/app/src/main/res/drawable/warm.xml" value="0.169" />
+        <entry key="..\:/Users/beom/AndroidStudioProjects/SmartCoordinator/app/src/main/res/drawable/warm2.xml" value="0.163" />
+        <entry key="..\:/Users/beom/AndroidStudioProjects/SmartCoordinator/app/src/main/res/layout/activity_enroll.xml" value="0.23550724637681159" />
+        <entry key="..\:/Users/beom/AndroidStudioProjects/SmartCoordinator/app/src/main/res/layout/activity_login.xml" value="0.16394927536231885" />
+        <entry key="..\:/Users/beom/AndroidStudioProjects/SmartCoordinator/app/src/main/res/layout/activity_login2.xml" value="0.18854166666666666" />
+        <entry key="..\:/Users/beom/AndroidStudioProjects/SmartCoordinator/app/src/main/res/layout/activity_main.xml" value="0.12310030395136778" />
+        <entry key="..\:/Users/beom/AndroidStudioProjects/SmartCoordinator/app/src/main/res/layout/activity_main2.xml" value="0.10416666666666667" />
+        <entry key="..\:/Users/beom/AndroidStudioProjects/SmartCoordinator/app/src/main/res/layout/activity_real.xml" value="0.1956521739130435" />
+        <entry key="..\:/Users/beom/AndroidStudioProjects/SmartCoordinator/app/src/main/res/layout/activity_recommend.xml" value="0.264" />
+        <entry key="..\:/Users/beom/AndroidStudioProjects/SmartCoordinator/app/src/main/res/layout/custom_adapter.xml" value="0.12552083333333333" />
+        <entry key="..\:/Users/beom/AndroidStudioProjects/SmartCoordinator/app/src/main/res/layout/fragment_1.xml" value="0.12158054711246201" />
+        <entry key="..\:/Users/beom/AndroidStudioProjects/SmartCoordinator/app/src/main/res/layout/fragment_2.xml" value="0.144" />
+        <entry key="..\:/Users/beom/AndroidStudioProjects/SmartCoordinator/app/src/main/res/layout/fragment_3.xml" value="0.2" />
+        <entry key="..\:/Users/beom/AndroidStudioProjects/SmartCoordinator/app/src/main/res/layout/main2.xml" value="0.10416666666666667" />
+        <entry key="..\:/Users/beom/AndroidStudioProjects/SmartCoordinator/app/src/main/res/menu/main.xml" value="0.1" />
+      </map>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_11" default="true" project-jdk-name="11" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/build/classes" />
+  </component>
+  <component name="ProjectType">
+    <option name="id" value="Android" />
+  </component>
+</project>

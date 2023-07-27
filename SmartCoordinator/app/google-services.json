@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "903143635239",
+    "project_id": "smartcoordinator-85af9",
+    "storage_bucket": "smartcoordinator-85af9.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:903143635239:android:088b74662ebae9c26fd102",
+        "android_client_info": {
+          "package_name": "com.jjune.smartcoordinator"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "903143635239-rnfnpgpqpmlfhob44p0mot1n72jqill2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBJ5yNvSP4fvOk2pgU3qa0Z0xhy6QXXT94"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "903143635239-rnfnpgpqpmlfhob44p0mot1n72jqill2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

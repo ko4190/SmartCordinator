@@ -1,0 +1,278 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".Fragment3">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:text="옷 조합 추천"
+        android:fontFamily="@font/nanumbarunpenb"
+        android:textSize="30dp"
+        android:gravity="center"
+        android:background="#6DDA2929"
+        />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/location"
+        android:textSize="15dp"
+        android:fontFamily="@font/nanumbarunpenb"
+        />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/location2"
+        android:textSize="15dp"
+        android:fontFamily="@font/nanumbarunpenb"
+        />
+
+    <ImageView
+        android:layout_marginLeft="270dp"
+        android:layout_marginTop="70dp"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/fore"/>
+
+
+    <LinearLayout
+
+        android:layout_marginTop="165dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:background="@drawable/sideline">
+
+        <LinearLayout
+            android:layout_marginTop="15dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal">
+            <TextView
+                android:id="@+id/tt"
+                android:layout_marginRight="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:text="오늘의 추천 옷조합"
+                android:textSize="20dp"
+                android:layout_marginLeft="100dp"
+                android:textColor="#AE3E3636"
+                android:fontFamily="@font/nanumbarunpenb"/>
+            <Button
+                android:padding="0dp"
+                android:layout_marginTop="7dp"
+                android:layout_marginLeft="30dp"
+                android:id="@+id/receive_recommend"
+                android:layout_width="60dp"
+                android:layout_height="30dp"
+                android:text="추천 받기"
+                android:textSize="15dp"
+                android:fontFamily="@font/nanumbarunpenb"
+                android:background="@drawable/warm2"
+                android:textColor="#ffffff"/>
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_marginTop="30dp"
+            android:layout_width="match_parent"
+            android:layout_height="230dp"
+            android:weightSum="1"
+            >
+            <LinearLayout
+                android:layout_marginLeft="20dp"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/im_top"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_baseline_people_24"/>
+
+                    <TextView
+                        android:id="@+id/text_top"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:text="종류 : 상의\n분류 :\n별명 : "
+                        android:fontFamily="@font/nanumbarunpenb"/>
+                </LinearLayout>
+
+                <!--<TextView
+
+                    android:id="@+id/more_top"
+                    android:gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="동일한 시원도를 가진 상의 더보기"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/nanumbarunpenb"/>-->
+
+                <LinearLayout
+                    android:layout_marginTop="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/im_bottom"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_baseline_people_24"/>
+
+                    <TextView
+                        android:id="@+id/text_bottom"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:text="종류 : 하의\n분류 :\n별명 : "
+                        android:fontFamily="@font/nanumbarunpenb"/>
+                </LinearLayout>
+
+                <!--<TextView
+                    android:id="@+id/more_pants"
+                    android:gravity="center"
+                    android:layout_marginRight="20dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="0dp"
+                    android:text="동일한 시원도를 가진 하의 더보기"
+                    android:textSize="14dp"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/nanumbarunpenb"/>-->
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_marginLeft="10dp"
+                android:layout_width="0dp"
+                android:layout_height="match_parent"
+                android:layout_weight="0.5"
+                android:orientation="vertical">
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/im_outer"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_baseline_people_24"/>
+
+                    <TextView
+                        android:id="@+id/text_outer"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:text="종류 : 아우터\n분류 :\n별명 : "
+                        android:fontFamily="@font/nanumbarunpenb"/>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+                    android:layout_marginTop="30dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <ImageView
+                        android:id="@+id/im_etc"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:src="@drawable/ic_baseline_people_24"/>
+
+                    <TextView
+                        android:id="@+id/text_etc"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginTop="0dp"
+                        android:layout_width="match_parent"
+                        android:layout_height="90dp"
+                        android:text="종류 : 기타\n분류 :\n별명 : "
+                        android:fontFamily="@font/nanumbarunpenb"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    <LinearLayout
+        android:layout_marginTop="490dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+
+            <TextView
+                android:gravity="center"
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="추천받은 옷은 어떠셨나요? \n피드백을 남겨주세요."
+                android:fontFamily="@font/nanumbarunpenb"/>
+
+            <LinearLayout
+                android:id="@+id/cool"
+                android:gravity="center"
+                android:layout_marginTop="20dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <Button
+                    android:id="@+id/but_cold"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="추움"
+                    android:textStyle="bold"
+                    android:fontFamily="@font/nanumbarunpenb"
+                    android:textColor="#655858"
+                    android:background="@drawable/cool"/>
+                <Button
+                    android:id="@+id/but_good"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="적당"
+                    android:textStyle="bold"
+                    android:textColor="#655858"
+                    android:fontFamily="@font/nanumbarunpenb"
+                    android:background="@drawable/midium"/>
+                <Button
+                    android:id="@+id/but_hot"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="더움"
+                    android:textStyle="bold"
+                    android:textColor="#655858"
+                    android:fontFamily="@font/nanumbarunpenb"
+                    android:background="@drawable/warm"/>
+            </LinearLayout>
+    </LinearLayout>
+</FrameLayout>
